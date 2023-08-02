@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum TaskStatus {
+  Unknown = 0;
+  Running = 1;
+  Exiting = 2;
+  Pending = 3;
+}
+
+option go_package = "github.com/yangyang5214/protoc-gen-gorm-serializer-example";
